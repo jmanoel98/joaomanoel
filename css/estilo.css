@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  @media (min-width: 350px) {
+    body {
+        font-size: 14px;      
+    }
+    .container{
+        margin-top:1%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .defeitos li, .qualidades li{
+        list-style: none;
+    }
+
+    .about-me, .Hobbies, .objectives, .characteristics, .why, .formacao, .complements{
+        margin:0;
+    }
+  }
+
+  @media (min-width: 600px) {
+      .container{
+    padding-top: 1%;
+    margin-left: 28%;
+    margin-right: 28%;
+    padding-left: 1%;
+    }
+  }
+
+.title{
+    background-color:  #3366ff;
+    padding: 5%;
+    color: white;
+    text-align: center;
+    
+}
+
+.sub-title{
+    text-align: center;
+    padding:3%;
+    background-color: #b3c6ff;
+}
+
+i{
+    color:white;
+}
+
+footer{
+    background-color:  #666;
+    padding: 5%;
+    color: white;
+}
+
+body{
+    background-image: url(../img/estrelas.jpg);
+}
+
+.paragrafo{
+    text-align: justify;
+    margin:2%;
+}
+
+.about-me{
+    background-color: #e6ccff;
+    width: 100%;
+    border-radius: 30px;
+    padding-top: 5%;
+    height: 14em;
+    padding-left: 5%;
+    margin-left: 5%;
+    padding-right:5%;
+   
+}
+
+.Hobbies{
+    background-color:aliceblue;
+    border-radius: 30px;
+    width: 100%;
+    height: 13em;
+    margin-top: 2%;
+    padding-bottom:5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right:5%;
+}
+
+.objectives{
+    margin-top:2%;
+    background-color: #3333ff;
+    width: 120%;
+    border-radius: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    color:white;
+}
+
+.characteristics{
+    margin-top:5%;
+    columns:2;
+    height: 10em;
+    padding-top: 2%;
+    width:110%;
+    margin-bottom:5%;
+    display: flex;
+    
+}
+
+.qualidades{
+    background-color: #00cc00;
+    color:white;
+    border-radius: 30px;
+    padding: 5%;
+    margin-right: 2%;
+}
+
+.defeitos{
+    background-color: #ff0000;
+    color: white;
+    border-radius: 30px;
+    padding:5%;
+    margin-left: 2%;
+}
+
+.why{
+    background-color: #ffff80;
+    border-radius: 30px;
+    padding:5%;
+    margin-top:1%;
+    margin-left:-5%;
+}
+
+.formacao{
+    color: white;
+    background-color: #ff9933;
+    border-radius: 30px;
+    padding:5%;
+    margin-top:1%;
+}
+
+.formacao li{
+    margin-top: 2%;
+}
+
+.complements{
+    color: white;
+    background-color: #ff3333;
+    border-radius: 30px;
+    padding:5%;
+    margin-top:1%;
+    margin-left:-5%;
+}
+
+.complements li{
+    margin-top: 2%;
+}
+
+.end{
+    margin-top: 1%;
+    text-align: center;
+    padding:3%;
+    background-color: #b3c6ff;
+}
+
+.contact{
+    width: 50%;
+}
+
+.contact li{
+    list-style: none;
+    margin:5%;
+}
+
+.contact2{
+    margin-left: 50%;
+    width: 50%;
+}
+
+.contact2 li{
+        list-style: none;
+}
+
+i{
+    margin-right: 5%;
+}
